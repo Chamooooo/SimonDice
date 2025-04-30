@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Simón Dice</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Simón Dice</h1>
+  <h2 id="level">Presiona "Comenzar"</h2>
+  <h3 id="record">Récord: 0</h3>
+
+  <div id="game">
+    <div class="btn green" id="green"></div>
+    <div class="btn red" id="red"></div>
+    <div class="btn yellow" id="yellow"></div>
+    <div class="btn blue" id="blue"></div>
+  </div>
+  <button id="start">Comenzar</button>
+
+  <!-- Sonidos -->
+  <audio id="sound-green" src="sonidos/beep.wav"></audio>
+  <audio id="sound-red" src="sonidos/beep.wav"></audio>
+  <audio id="sound-yellow" src="sonidos/beep.wav"></audio>
+  <audio id="sound-blue" src="sonidos/beep.wav"></audio>
+  <audio id="sound-error" src="sonidos/error.flac"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
